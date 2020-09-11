@@ -1,0 +1,12 @@
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\bin\Debug\netstandard2.0\ControlLayer.deps.json
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\bin\Debug\netstandard2.0\ControlLayer.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\bin\Debug\netstandard2.0\ControlLayer.pdb
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.csprojAssemblyReference.cache
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.AssemblyInfoInputs.cache
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.AssemblyInfo.cs
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.csproj.CoreCompileInputs.cache
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.csproj.CopyComplete
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\ControlLayer\obj\Debug\netstandard2.0\ControlLayer.pdb

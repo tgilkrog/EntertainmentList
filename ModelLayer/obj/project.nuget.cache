@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L/aAQ8SsLRVhEofHQKZ5zSS9CmYZEwxufdy7489kM64kMc65kaZZRRgdj+yrFA0ZEMYo4Jvm4hl6I5+it+/D5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tgilk\\source\\repos\\MyEntertainmentList\\ModelLayer\\ModelLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tgilk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tgilk\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

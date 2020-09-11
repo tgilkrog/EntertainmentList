@@ -1,0 +1,8 @@
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\bin\Debug\System.Data.SqlClient.dll
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\bin\Debug\System.Data.SqlClient.xml
+C:\Users\tgilk\source\repos\MyEntertainmentList\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
