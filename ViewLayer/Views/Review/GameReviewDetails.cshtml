@@ -1,0 +1,19 @@
+﻿@model ModelLayer.Models.GameReview
+
+@{
+    ViewBag.Title = "GameReviewDetails";
+}
+
+<div style="float: left; padding: 100px 100px 0px 0px">
+    <img src="@Model.Game.Picture" height="500px" width="400px" />
+</div>
+<div style="padding: 100px 0px 0px 0px">
+    <h1>@Model.Game.ItemName</h1>
+    <h2>Genre: @Model.Game.Genre</h2>
+    <h2>Spilletid: @Model.Game.PlayedTime</h2>
+
+    <br />
+    <h1>Review</h1>
+    <h2>Din Mening: @Model.Thoughts</h2>
+    <h2>Bedømmelse: @Model.Score</h2>
+</div>

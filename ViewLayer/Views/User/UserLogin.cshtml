@@ -1,0 +1,19 @@
+﻿@model ModelLayer.Models.MELUser
+
+@{
+    ViewBag.Title = "UserLogin";
+}
+
+<h2>Har du ikke en bruger? så opret en her @Html.ActionLink("Opret Bruger", "CreateUser", "User")</h2>
+
+<div class="login-div">
+    <form id="UserDetails" action="/User/UserDetails" method="Post">
+    <div class="title">Bruger</div>
+    <div class="sub-title">Login</div>
+    <div class="fields">
+        <div class="username"><input name="username" type="username" class="user-input" placeholder="Username" /></div>
+        <div class="password"><input name="password" type="password" class="pass-input" placeholder="Password" /></div>
+    </div>
+    <button type="submit" class="signin-button">LOG IN</button>
+    </form>
+</div>

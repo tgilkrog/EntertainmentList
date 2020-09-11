@@ -1,0 +1,6 @@
+C:\Users\tgilk\source\repos\MEL\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\tgilk\source\repos\MEL\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\tgilk\source\repos\MEL\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\tgilk\source\repos\MEL\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\tgilk\source\repos\MEL\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\Users\tgilk\source\repos\MEL\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache

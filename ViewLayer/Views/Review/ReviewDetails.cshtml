@@ -1,0 +1,18 @@
+﻿@model ModelLayer.Models.MovieReview
+
+
+<div style="float: left; padding: 100px 100px 0px 0px">
+    <img src="@Model.Movie.Picture" height="500px" width="400px" />
+</div>
+<div style="padding: 100px 0px 0px 0px">
+    <h1>@Model.Movie.ItemName</h1>
+    <h2>Genre: @Model.Movie.Genre</h2>
+    <h2>Spilletid: @Model.Movie.MovieLength</h2>
+
+    <br />
+    <h1>Review</h1>
+    <h2>Din Mening: @Model.Thoughts</h2>
+    <h2>Bedømmelse: @Model.Score / 5</h2>
+</div>
+
+

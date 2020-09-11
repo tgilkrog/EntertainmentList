@@ -1,0 +1,9 @@
+C:\Users\tgilk\source\repos\MEL\ControlLayer\bin\Debug\ControlLayer.dll
+C:\Users\tgilk\source\repos\MEL\ControlLayer\bin\Debug\ControlLayer.pdb
+C:\Users\tgilk\source\repos\MEL\ControlLayer\bin\Debug\ModelLayer.dll
+C:\Users\tgilk\source\repos\MEL\ControlLayer\bin\Debug\ModelLayer.pdb
+C:\Users\tgilk\source\repos\MEL\ControlLayer\obj\Debug\ControlLayer.csprojAssemblyReference.cache
+C:\Users\tgilk\source\repos\MEL\ControlLayer\obj\Debug\ControlLayer.csproj.CoreCompileInputs.cache
+C:\Users\tgilk\source\repos\MEL\ControlLayer\obj\Debug\ControlLayer.csproj.CopyComplete
+C:\Users\tgilk\source\repos\MEL\ControlLayer\obj\Debug\ControlLayer.dll
+C:\Users\tgilk\source\repos\MEL\ControlLayer\obj\Debug\ControlLayer.pdb

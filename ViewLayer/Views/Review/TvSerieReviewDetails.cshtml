@@ -1,0 +1,19 @@
+﻿@model ModelLayer.Models.TvSerieReview
+
+@{
+    ViewBag.Title = "TvSerieReviewDetails";
+}
+
+<div style="float: left; padding: 100px 100px 0px 0px">
+    <img src="@Model.TvSerie.Picture" height="500px" width="400px" />
+</div>
+<div style="padding: 100px 0px 0px 0px">
+    <h1>@Model.TvSerie.ItemName</h1>
+    <h2>Genre: @Model.TvSerie.Genre</h2>
+    <h2>Spilletid: @Model.TvSerie.Seasons</h2>
+
+    <br />
+    <h1>Review</h1>
+    <h2>Din Mening: @Model.Thoughts</h2>
+    <h2>Bedømmelse: @Model.Score</h2>
+</div>

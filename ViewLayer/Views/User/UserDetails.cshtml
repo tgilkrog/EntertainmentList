@@ -1,0 +1,68 @@
+﻿@{
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("~/User/UserLogin");
+    }
+}
+@model ModelLayer.Models.MELUser
+
+<div class="row userInfo">
+    <div class="col-md-5">
+        <img src="@Model.ProfilePicture" height="400" width="350" style="border: 5px solid #2a475e" />
+    </div>
+    <div class="col-md-7">
+        <h1>@Model.UserName</h1>
+        <br />
+        <h2>Navn: @Model.FullName</h2>
+        <h2>Email: @Model.Email</h2>
+        <h2>Favorit Kategori: @Model.FavoriteCategory</h2>
+        <br />
+        <br />
+        <input type="button" class="btn btn-default" value="Log Ud" onclick="location.href='@Url.Action("LogOut", "User")'" />
+    </div>
+</div>
+
+<div class="userRevs">
+    @if (Model.MyEntertainmentList.Movies.Count != 0)
+    {
+
+        <h3>Dine Film</h3>
+        <div class="l-container">
+            @foreach (var movie in @Model.MyEntertainmentList.Movies)
+            {
+                <div class="b-game-card" onclick="location.href='@Url.Action("ReviewDetails", "Review", new { Id = @movie.ReviewId })'">
+                    <div class="b-game-card__cover" style="background-image: url(@movie.Movie.Picture);">
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    @if (Model.MyEntertainmentList.TvSeries.Count != 0)
+    {
+        <h3>Dine TvSerier</h3>
+        <div class="l-container">
+            @foreach (var tvSerie in @Model.MyEntertainmentList.TvSeries)
+            {
+                <div class="b-game-card" onclick="location.href='@Url.Action("TvSerieReviewDetails", "Review", new { Id = @tvSerie.ReviewId })'">
+                    <div class="b-game-card__cover" style="background-image: url(@tvSerie.TvSerie.Picture);">
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    @if (Model.MyEntertainmentList.Games.Count != 0)
+    {
+        <h3>Dine Spil</h3>
+        <div class="l-container">
+            @foreach (var game in @Model.MyEntertainmentList.Games)
+            {
+                <div class="b-game-card" onclick="location.href='@Url.Action("GameReviewDetails", "Review", new { Id = @game.ReviewId })'">
+                    <div class="b-game-card__cover" style="background-image: url(@game.Game.Picture);">
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

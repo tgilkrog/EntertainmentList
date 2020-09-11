@@ -1,0 +1,46 @@
+﻿@model ModelLayer.Models.MELUser
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="mainTitle">
+        <h1 style="color: #66c0f4;">Welcome To My Entertainment List</h1>
+        @if (Session["userID"] == null)
+        {
+        <h2>Klik Her for at logge Ind @Html.ActionLink("Log Ind", "UserLogin", "User")</h2>
+        }
+    </div>
+
+<section style="margin: 50px 0 0">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card card_red text-center" onclick="location.href='@Url.Action("AllMovies", "Item")'">
+                        <div class="title">
+                            <span><i class="fas fa-film" aria-hidden="true"></i></span>
+                            <h2>Movies</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card_violet text-center" onclick="location.href='@Url.Action("AllTvSeries", "Item")'">
+                        <div class="title">
+                            <span><i class="fas fa-tv"></i></span>
+                            <h2>Tv Series</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card card_three text-center" onclick="location.href='@Url.Action("AllGames", "Item")'">
+                        <div class="title">
+                            <span><i class="fas fa-gamepad"></i></span>
+                            <h2>Games</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

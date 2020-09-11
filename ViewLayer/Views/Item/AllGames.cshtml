@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ModelLayer.Models.Game>
+
+@{
+    ViewBag.Title = "AllGames";
+}
+
+    <div class="allItems">
+        <div class="l-container">
+            @foreach (var item in Model)
+            {
+                <div class="b-game-card" onclick="location.href='@Url.Action("GameDetails", "Item", new { Id = @item.ItemID })'">
+                    <div class="b-game-card__cover" style="background-image: url(@item.Picture);">
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
